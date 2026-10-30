@@ -1,0 +1,33 @@
+{
+  "name": "@pipeworx/mcp-peru-sunat-ruc",
+  "version": "0.1.0",
+  "description": "peru-sunat-ruc -- Peru's SUNAT taxpayer register (Padron reducido del RUC). Fleet #2929.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "mcp-peru-sunat-ruc": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "peru-sunat-ruc"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-peru-sunat-ruc.git"
+  },
+  "mcpName": "io.github.pipeworx-io/peru-sunat-ruc",
+  "pipeworx": {
+    "mode": "gateway",
+    "slug": "peru-sunat-ruc",
+    "gatewaySlug": "peru-sunat-ruc",
+    "sourceHash": "v1-ae373aae6f0fd29f225a66c311242aaa8859f27bda829d9713a0fcf147092fe3",
+    "sourceCommit": "5cb09714e895571153f3d9663c36ff0f140cadd6"
+  }
+}

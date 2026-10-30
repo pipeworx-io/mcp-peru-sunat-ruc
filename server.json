@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/peru-sunat-ruc",
+  "title": "Peru Sunat Ruc",
+  "description": "peru-sunat-ruc -- Peru's SUNAT taxpayer register (Padron reducido del RUC). Fleet #2929.",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/peru-sunat-ruc",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-peru-sunat-ruc",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/peru-sunat-ruc/mcp"
+    }
+  ]
+}
